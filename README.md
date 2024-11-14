@@ -1,16 +1,18 @@
-# flutter_firebase
+Enable Authentication Method
 
-A new Flutter project.
+In the Firebase Console, navigate to Authentication > Sign-in method.
+Enable Email/Password or any other authentication provider.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Use FirebaseAuth for sign-up, sign-in, and sign-out functions.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Create a Collection in Firestore
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+In the Firebase Console, navigate to Firestore Database and create a new collection.
+> Create: Add new documents to the Firestore collection.
+> Read: Fetch documents from a collection.
+> Update: Update a document by its ID.
+> Delete: Remove a document by its ID.
+
+
